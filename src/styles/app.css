@@ -37,3 +37,20 @@
     transform: translateX(-350px);
     transition: all 500ms ease-in;
 }
+
+.page__wrapper{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.page{
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid teal;
+}
+
+.page__current{
+    border: 2px solid orange;
+    font-weight: bold;
+}
